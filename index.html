@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Country Feature</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="countryInput">
+        <h3 class="m3">Enter a country Name to know its feature.</h3>
+        <div class="form m4">
+          <form action="#">
+            <input
+              type="text"
+              class="input"
+              placeholder="Enter a Country Name"
+            />
+            <button class="m2 button">search</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="loading-indicator m4">
+        <div class="sk-chase js-spinner hidden">
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+        </div>
+      </div>
+
+      <div class="countryFeature">
+        <h2>Country-Name : <span class="name">name</span></h2>
+        <h2>Country-capital : <span class="capital">capital</span></h2>
+        <h2>Region : <span class="region">some value</span></h2>
+        <h2>GDP : <span class="gdp">some value</span></h2>
+        <h2>Surface Area : <span class="surface_area">some value</span></h2>
+        <h2>Sex Ratio : <span class="sex_ratio">some value</span></h2>
+        <h2>
+          Currency : Code=<span class="currencyCode">some value</span>
+          Name=<span class="currencyName">currency</span>
+        </h2>
+        <h2>Forested Area : <span class="forested_area">some value</span></h2>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
